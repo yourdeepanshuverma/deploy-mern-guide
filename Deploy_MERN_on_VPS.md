@@ -32,10 +32,13 @@ Update and Upgrade Your System
 Install Node.js and npm ( if not pre-installed)
 
 ```bash
-  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 ```bash
-  sudo apt-get install -y nodejs
+  \. "$HOME/.nvm/nvm.sh"
+```
+```bash
+  nvm install 22
 ```
 Install Git 
 ```bash
