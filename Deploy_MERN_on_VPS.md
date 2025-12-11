@@ -10,9 +10,22 @@
 - Deploying the React Frontends
 - Configuring Nginx as a Reverse Proxy
 - Setting Up SSL Certificates
-### 1. Preparing the VPS Environment
 
-#### Get you VPS Hosting here : [Hostinger VPS](https://greatstack.dev/go/hostinger-vps)
+### Add ssh key in Github (if adding private repo)
+
+Generate key
+```bash
+ssh-keygen -t ed25519 -C "your-email@example.com"
+```
+
+Get key 
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+
+
+### 1. Preparing the VPS Environment
 
 Log in to Your VPS in Terminal 
 
